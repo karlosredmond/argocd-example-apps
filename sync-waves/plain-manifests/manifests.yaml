@@ -20,7 +20,7 @@ spec:
   template:
     spec:
       containers:
-        - name: upgrade-sql-schema
+        - name: upgrade-sql-schema-2
           image: alpine:latest
           command: ["sleep", "5"]
       restartPolicy: Never
